@@ -1,13 +1,14 @@
-import React from "react"
+import React from "react";
+import ListItem from './ListItem'
 
 class List extends React.Component {
     render(){
         return(
-            <ul>
-                <li>Thee</li>
-                <li>Soep</li>
-                <li>Brood</li>
-            </ul>
+            <div>
+                <ListItem name="Thee"/>
+                <ListItem name="Soep"/>
+                <ListItem name="Brood"/>
+            </div>
         )
         
     }
